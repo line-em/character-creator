@@ -1,5 +1,6 @@
 # Character Creation Workshop
 
+TESTE
 In this workshop, you'll build a Sims-style character creation screen.
 
 ## Mockups
@@ -47,20 +48,16 @@ This project uses **CSS Modules**. CSS modules are ultimately very similar to va
 ```css
 /* Something.module.css */
 .wrapper {
-  width: 500px;
+	width: 500px;
 }
 ```
 
 ```js
 /* Something.js */
-import styles from './Something.module.css';
+import styles from "./Something.module.css";
 
 function Something() {
-  return (
-    <div className={styles.wrapper}>
-      I'll be 500px wide!
-    </div>
-  );
+	return <div className={styles.wrapper}>I'll be 500px wide!</div>;
 }
 ```
 
